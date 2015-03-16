@@ -7,5 +7,4 @@ Redmine::Plugin.register :redmine_email_images do
   version '0.1.0'
   url 'http://github.com/dkalachov/redmine_email_images'
   author_url 'http://dkalachov.com'
-  requires_redmine :version_or_higher => '2.6.0'
 end
