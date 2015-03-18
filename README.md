@@ -16,6 +16,7 @@ To install the plugin clone the repo from github and migrate the database:
 ```
 cd /path/to/redmine/
 git clone git://github.com/dkalachov/redmine_email_images.git plugins/redmine_email_images
+bundle
 rake redmine:plugins:migrate RAILS_ENV=production
 ```
 
